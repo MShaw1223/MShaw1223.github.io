@@ -1,35 +1,50 @@
-
+.header {
+  display: flex;
+  flex-direction: row;
+}
 
 body {
 	background-color:  #24273a;
 }
 
-.header {
+img {
+  width:  75px;
+  height: auto;
+}
+
+.card {
+	text-align: centre;
 	background-color: #1e2030;
+	border: 1;
+	border-radius: 25px;
+	margin: 10px;
+	padding: 15px;
 }
 
 /* Fonts */
 p,h1,h2, h3{
 	color: grey;
 }
-
-.montserrat-light {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
+h1,h2,h3 {
+	text-align: center;
 }
 
-.montserrat-medium {
+.montserrat {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
+}
+
+.light {
+  font-weight: 300;
+  font-style: oblique;
+}
+
+.medium {
   font-weight: 500;
   font-style: normal;
 }
 
-.montserrat-heavy{
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
+.heavy{
   font-weight: 800;
   font-style: normal;
 }
