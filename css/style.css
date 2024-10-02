@@ -1,15 +1,24 @@
-.header {
-  display: flex;
-  flex-direction: row;
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: #24273a;
 }
 
-body {
-	background-color:  #24273a;
+.header {
+	display: flex;
+	direction: row;
+	justify-content: center;
+}
+
+main {
+	flex: 1;
 }
 
 img {
-  width:  75px;
-  height: auto;
+	width: auto;
+	height: 50px;
+	margin: 10px;
 }
 
 .card {
@@ -21,30 +30,36 @@ img {
 	padding: 15px;
 }
 
-/* Fonts */
-p,h1,h2, h3{
+/* Fonts + Text related */
+p,
+h1,
+h2,
+h3 {
 	color: grey;
 }
-h1,h2,h3 {
+
+h1,
+h2,
+h3 {
 	text-align: center;
 }
 
 .montserrat {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
 }
 
 .light {
-  font-weight: 300;
-  font-style: oblique;
+	font-weight: 300;
+	font-style: oblique;
 }
 
 .medium {
-  font-weight: 500;
-  font-style: normal;
+	font-weight: 500;
+	font-style: normal;
 }
 
-.heavy{
-  font-weight: 800;
-  font-style: normal;
+.heavy {
+	font-weight: 800;
+	font-style: normal;
 }
