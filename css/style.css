@@ -1,7 +1,7 @@
 body {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
+	height: 100vh;
 	background-color: #24273a;
 }
 
@@ -15,7 +15,8 @@ main {
 	flex: 1;
 }
 
-img {
+img,
+svg {
 	width: auto;
 	height: 50px;
 	margin: 10px;
@@ -30,17 +31,18 @@ img {
 	padding: 15px;
 }
 
+.footer {
+	display: flex;
+	direction: col;
+	justify-content: center;
+}
+
 /* Fonts + Text related */
 p,
 h1,
 h2,
 h3 {
 	color: grey;
-}
-
-h1,
-h2,
-h3 {
 	text-align: center;
 }
 
