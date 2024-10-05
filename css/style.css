@@ -7,7 +7,7 @@ body {
 
 .header {
 	display: flex;
-	direction: row;
+	flex-direction: row;
 	justify-content: center;
 }
 
@@ -23,9 +23,9 @@ svg {
 }
 
 .card {
-	text-align: centre;
+	text-align: center;
 	background-color: #1e2030;
-	border: 1;
+	border: 1px solid;
 	border-radius: 25px;
 	margin: 10px;
 	padding: 15px;
@@ -33,7 +33,7 @@ svg {
 
 .footer {
 	display: flex;
-	direction: col;
+	flex-direction: col;
 	justify-content: center;
 }
 
